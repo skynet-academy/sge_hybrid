@@ -8,8 +8,8 @@ rm cmake-3.19.2.tar.gz
 # Running bootstrap.sh to compile without java
 sh scripts/bootstrap.sh -no-java -no-jni
 
-# Recommendations
-## change the following variable in the file version.c in the directory: /opt/sge/source/libs/gdi/
+# Recommendations 
+*change the following variable in the file version.c
 file	 : /opt/sge/source/libs/gdi/version.c
 //const char GDI_VERSION[] = GIT_REPO_VERSION;
 const char GDI_VERSION[] = "r20.556adb4";
